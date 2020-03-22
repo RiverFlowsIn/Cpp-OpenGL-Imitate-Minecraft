@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{83b1f506-d074-4ba1-94f9-ca9fa7f7bc6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\源文件">
+      <UniqueIdentifier>{753854bb-9eea-4adb-9d44-0c498a31a742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\头文件">
+      <UniqueIdentifier>{80c046ab-d366-4731-a7c1-0ec7d3bfab70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{48ad60d0-bad7-4c00-b7fe-fa7a2c27a567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\源文件">
+      <UniqueIdentifier>{f71a4bc8-5af4-44ae-8f3c-b8395161acbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Other\头文件">
+      <UniqueIdentifier>{c1206b4a-c788-456b-a4c3-ae668ada9400}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LeafModel.cpp">
+      <Filter>Model\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeModel.cpp">
+      <Filter>Model\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonModel.cpp">
+      <Filter>Model\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldModel.cpp">
+      <Filter>Model\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlantModel.cpp">
+      <Filter>Model\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GLWidget.cpp">
+      <Filter>Other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Painter.cpp">
+      <Filter>Other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateWorld.cpp">
+      <Filter>Other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TakeCubeModel.cpp">
+      <Filter>Model\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>Other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EliminateModel.cpp">
+      <Filter>Model\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EliminateAnima.cpp">
+      <Filter>Other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Other\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommTCP.cpp">
+      <Filter>Other\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LeafModel.h">
+      <Filter>Model\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeModel.h">
+      <Filter>Model\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonModel.h">
+      <Filter>Model\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldModel.h">
+      <Filter>Model\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlantModel.h">
+      <Filter>Model\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GLWidget.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Painter.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonVertexData.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateWorld.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TakeCubeModel.h">
+      <Filter>Model\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EliminateModel.h">
+      <Filter>Model\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EliminateAnima.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommTCP.h">
+      <Filter>Other\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
