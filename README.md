@@ -2,7 +2,7 @@
 C++ OpenGL模仿我的世界，内容相对完善，随机地图，支持双人联机，代码注释多
 
 # B站视频
-待审核。。。
+https://b23.tv/av98281860/p1
 
 # 效果图片
 ![image](https://github.com/BuleStorm/Cpp-OpenGL-Imitate-Minecraft/blob/master/%E6%95%88%E6%9E%9C%E5%9B%BE%E7%89%87/1.PNG)
